@@ -1,0 +1,5 @@
+task runCrawler(type:Exec) {
+	workingDir 'Crawler'
+
+	commandLine 'python3', 'main/main.py'
+}

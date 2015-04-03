@@ -1,4 +1,6 @@
 task runCrawler(type:Exec) {
+	commandLine 'pip3', 'install', '-r', 'requirements.txt'
+
 	workingDir 'Crawler'
 
 	commandLine 'python3', 'main/main.py'

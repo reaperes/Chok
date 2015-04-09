@@ -6,4 +6,4 @@
 * jdk 8 설치
 
 # 크롤러 실행하는 방법
-* gradle runCrawler
+* ./gradlew runCrawler

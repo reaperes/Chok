@@ -53,4 +53,4 @@ def divideTweet(tweet):
 
 list = searchTweet();
 for tweet in list:
-    print tweet.text
+    print (tweet.text)

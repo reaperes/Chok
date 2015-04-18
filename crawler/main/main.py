@@ -16,7 +16,7 @@ twitter = Twitter()
 conn = pymysql.connect(host='107.191.52.52', unix_socket='/tmp/mysql.sock', user='chok', passwd='znvkd123!@#', db='chok', charset='utf8')
 cur = conn.cursor()
 
-mealList = ["짜장면", "탕수육", "짬뽕", "군만두", "팹시", "아이스크림", "부대찌개", "국밥", "콩나물", "두부", "타리미슈", "케이크", "치킨"];
+mealList = ["짜장면", "탕수육", "짬뽕", "군만두", "팹시", "아이스크림", "부대찌개", "국밥", "콩나물", "두부", "티라미슈", "케이크", "치킨"];
 
 # # 선릉역 10km 주변 트윗검색
 # for tweet in tweepy.Cursor(api.search,
